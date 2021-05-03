@@ -1,0 +1,63 @@
+b.tituloDescrip{
+	font-size: 10pt;
+	font-weight: bolder;
+	font-family: verdana;
+	line-height: 5px;
+	color: #0F3563;
+}
+
+p.Empresa{
+	font-size: 9pt;
+	font-weight: bolder;
+	font-family: verdana;
+	line-height: 5px;
+
+}
+p.TituloReporte{
+	font-weight: bolder;
+	color: #0F3563;
+	font-size: 20pt;
+	margin-bottom: 7px;
+	margin-top: 2px;
+}
+
+table.tableReporte{
+	border-style: solid;
+	border-color: black;
+	border:1px;
+	font-weight: bolder;
+	color: white;
+}
+
+
+tr.trTitulo{
+	font-size: 10pt;
+	background: #2C6499;
+
+}
+
+td.totCant{
+	font-size: 10pt;
+	background: #F1F1F1;
+	line-height: 15px;
+}
+
+
+tr.parrafo{
+	font-size: 10pt;
+	background: #F1F1F1;
+	line-height: 40px;
+}
+
+td.parrafoInterno{
+	font-size: 9pt;
+	background: #F1F1F1;
+	line-height: 10px;
+}
+
+
+td.titulo1{
+	font-size: 8pt;
+	background: #F1F1F1;
+	line-height: 15px;
+}

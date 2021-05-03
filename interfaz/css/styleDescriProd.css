@@ -1,0 +1,270 @@
+div.contenedorImgDescrip{/*estylo de div que contiene la imagen de Descripcion correspondente a cada Prodcuto*/
+border:2px;
+border-color: #C70039;
+border-radius: 20px;
+border-style: solid;
+margin-top: 15px;
+margin-bottom: 15px;
+background: #A4D4E9;
+}
+
+.vertical-centered-text {
+  height: 200px;
+  display: table;
+}
+  .vertical-centered-text > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+img.imgDescrip{		/* estilo de la imagen en la pagina de descripcion del producto */
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: -12px;
+	min-height: 350px;
+	max-height: 450px;
+	min-width: 340px;
+	max-width: 560px;
+	border: 4px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #005A62;
+}
+
+
+img.logoDescrip{			/*logo de la clasificacion de los productos*/
+	width: 100px;
+	height: 80px;
+	
+}
+
+
+p.textLog{					/*texto de la clasificacion de los productos*/
+	color: #C70039;
+	font-family:"comic sans ms" ;
+	font-size: 20pt;
+	font-weight: bold;
+
+}
+
+
+p.tituloArticulo{		/* estylo de titulo en descripcion de cada articulo */
+	margin-top: 30px;
+	color: #FB6700 ;
+	font-family: impact ;
+	font-size: 40px ;
+}
+
+div.div1{  			/*estylo de los div de la primera fila en pagina de descripcion de articulo*/
+	border: 1px;
+	border-style: solid;
+	border-color: #C70039;
+	border-radius:10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+div.div2{			/*estylo de los div de la segunda fila en pagina de descripcion de articulo*/
+	border: 1px;
+	border-style: solid;
+	border-color: #C70039;
+	border-radius: 10px;
+	max-height: 120px;
+	min-height: 120px;
+	padding-top: 10px;
+}
+
+div.div3{			/*estylo de los div de la tercera fila en pagina de descripcion de articulo "PRECIO" and "IVA"*/
+	border: 1px;
+	border-style: solid;
+	border-color: #C70039;
+	border-radius: 10px;
+	max-height: 100px;
+	min-height: 100px;
+	margin-top: 10px;
+}
+
+div.div4{			/*estylo de los div de la tercerafila fila en pagina de descripcion de articulo "PVP"*/
+	border: 1px;
+	border-style: solid;
+	border-color: #C70039;
+	border-radius: 10px;
+	max-height: 100px;
+	min-height: 100px;
+	margin-top: 10px;
+}
+
+label.labelTitulo{		/* de los titulos fijos en la descripcion de cada articulo*/
+	color: #0C2B74 ;
+	font-family: "verdana" ;
+	font-weight: bold;
+	font-size:14pt ;
+
+}
+
+p.descrip{			/*estylo de descripcion de los titulos en pagina descripcion de los articulos*/
+	color:  #006D12;
+	font-family: "verdana" ;
+	font-weight: bold;
+	font-size:11pt ;
+}
+
+p.precio{		/* estylo del precio de cada prodducto en descripcion de cada producto*/
+	color:#C70039 ;
+	font-family: impact;
+	font-size: 100% ;
+	margin-top: -10px
+}
+
+label.labelTitulo2{		/* de los titulos fijos en la descripcion de cada articulo*/
+	color: #0C2B74 ;
+	font-family: verdana ;
+	font-weight: bold;
+	font-size:14pt ;
+}
+
+label.labelTitulo3{
+	color: #0C2B74 ;
+	font-family: verdana;
+	font-weight: bold;
+	font-size:14pt ;
+	padding-top: 20px;
+}
+label.labelTitulo4{
+	margin-left: -50px;
+	color: #C70039;
+	font-family: "comic sans ms";
+	font-size:12pt;
+	padding-top: 25px;
+}
+
+input.cantidadApartada{		/*estilo del input cantidad de apartado*/
+	margin-left: -40px;
+	color: #006D12;
+	font-family: arial;
+	width: 40%;
+}
+input.cantidadApartada:hover{
+	background: #F8FFFE;
+	font-weight: bold;
+}
+
+
+
+button.descripApartar{		/* botton de descripcion de productos "apartar" */
+	margin-top:18px;
+	margin-bottom: 10px;
+	margin-left: -5px;
+	color: white;
+	background: #13546A;
+	position: relative;
+	border-radius: 15px;
+	box-shadow: inset 0 0 0 1.5px #fff;
+	font-size: 13pt;
+	padding-left: 50px;
+	padding-right: 45px;
+}
+
+button.descripApartar:hover {
+ background: white;
+ color: #E41515;
+ box-shadow: inset 0 0 0 2.5px #E41515;
+ border-radius: 15px;
+ font-family: "georgia";
+ font-size: 12pt;
+ font-style: italic;
+}
+
+
+p.nombreYural{
+	color: #0089C5;
+	font-family: impact ;
+	font-size:16pt ;
+	margin-top: 12px;
+}
+
+img.imgYural{
+	width: 80px;
+	height: 60px;
+	
+}
+
+hr.hr1{				/* linea que separa el producto con los comentarios */
+	border-style: solid;
+	background: #BE1515;
+	width: 75%;
+	height: 2px;
+	border-radius: 80px;
+}
+
+p.estyleComent{		/*estylo del titulo del comentario en pagina de descripcion*/
+	color: green;
+	font-style: solid;
+	font-size: 13pt;
+	font-family: "comic sans ms";
+	font-size-adjust: auto;
+	font-weight: bolder;
+
+}
+
+textarea.textarea{		/* estylo del textarea de los comentarios de los productos*/
+	font-family: "verdana";
+	font-weight: bolder;
+	color: #58987F;
+}
+textarea.textarea:hover{
+	color: #2E7257;
+	background: #FAFAFA;
+}
+
+
+button.buttonApartar{		/* boton de Preguntar! comentarios en pagina de descripcion de productos */
+	margin-top: 5px;
+	margin-left: -25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	background: #008A8C;
+	position: relative;
+	border-radius: 15px;
+	box-shadow: inset 0 0 0 1.5px #fff;
+	font-size: 12pt;
+	font-family: arial;
+}
+
+button.buttonApartar:hover {
+ background: white;
+ color: #008C00;
+ box-shadow: inset 0 0 0 2.5px #008C00;
+ border-radius: 15px;
+ font-family: "georgia";
+ font-size: 12pt;
+ font-style: italic;
+}
+
+div.divComentario{/* estilo del contenedor de los comentarios*/
+	background: #E6E6E6;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: black;
+	border:1px;
+
+}
+
+
+/*estilo de nombre de comentarios en pagina de descripcion de prodcuto*/
+label.nombreComentario{
+	color: rgba(40, 55, 71, .5);
+}
+
+b.titComen{
+	color:#0B306C
+}
+
+.Comentario{
+	color:#116811
+
+}
+

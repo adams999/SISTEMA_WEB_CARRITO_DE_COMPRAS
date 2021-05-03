@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Repuestos Yural</title>
+    <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style1.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="img/icono1.ico">
+</head>
+    <body>
+        <section class="container-fluid">
+            <header class="row">
+                <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 container" align="justify"> 
+                    <a href="index.html">
+                        <img class="imgPrincipal" src="img/logo3.jpg"> 
+                    </a>
+                 </div>
+
+                 <div class=" col-lg-1 col-md-1 col-sm-1 col-xs-1 btn-vertical row" align="justify">
+                    <a href="#" title="Ingresar a Repuestos Yural">
+                        <button type="button" class="b1 btn btn-group" value="Ingresar">
+                            <i class="glyphicon glyphicon-user"><br>Ingresar</i>
+                        </button>
+                    </a>
+
+                    <a href="#" title="Crear Usuario">
+                        <button type="button" class="b1 btn btn-group" value="Registro">
+                            <i class="glyphicon glyphicon-save"><br>Registro</i>
+                        </button>
+                    </a>
+
+                    <a href="#" title="Cerrar Seccion">
+                        <button type="button" class="b1 btn btn-group" value="Salir">
+                            <i class="glyphicon glyphicon-log-out"><br>Salir</i>
+                        </button>
+                    </a>
+                 </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <ul class="nav nav-tabs" >
+                            <li>
+                                <a href="index.html">
+                                    <i class="glyphicon glyphicon-home"></i> Inicio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                   <i class="glyphicon glyphicon-shopping-cart"></i> Catalogo de Repuestos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="drowpdown-toggle" data-toggle="dropdown">
+                                   <i class="glyphicon glyphicon-info-sign"></i> Informacion de Yural C.A <i class="caret"></i>  
+                                </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">
+                                               <i class="glyphicon glyphicon-map-marker"></i> Ubicacion
+                                            </a>
+                                        </li>
+                                            <li class="divider"></li>
+                                        <li>
+                                            <a href="#"><i class="glyphicon glyphicon-earphone"></i> Contacto</a>
+                                        </li>
+                                            <li class="divider"></li>
+                                        <li>
+                                            <a href="#"><i class="glyphicon glyphicon-exclamation-sign"></i> Misión</a>
+                                        </li>
+                                            <li class="divider"></li>
+                                    </ul>
+                            </li>
+                            <li class="active">
+                                <a href="#" class="drowpdown-toggle" data-toggle="dropdown">
+                                   <i class="glyphicon glyphicon-user"></i> Mi Cuenta <i class="caret"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">
+                                            <i class="glyphicon glyphicon-user"></i> Productos Apartados
+                                        </a>
+                                    </li>
+                                        <li class="divider"></li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="glyphicon glyphicon-cog"></i> Configuracion de Cuenta
+                                        </a>
+                                    </li>
+                                        <li class="divider"></li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="glyphicon glyphicon-log-out"></i> Salir
+                                        </a>
+                                    </li>
+                                        <li class="divider"></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+            </header>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" align="center">
+                <h1>
+                    <font>
+                        <p class="titulo1"><br> Registro de Usuario</p><br>
+                    </font>
+                </h1>
+            </div>
+            <div class="container-fluid" align="center">
+              <form class="form form-group">
+                <div class="row">
+
+                                                <div class=" col-lg-2 " ></div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 form-group has-success" align="center">
+                       <p class="campRegis">
+                           <label>
+                               Nombre &nbsp; <a href="#"><i class="glyphicon glyphicon-exclamation-sign pull-right." title="Ingresa ambos Nombres Porfavor" ></i></a>
+                           </label>
+                       </p>
+                       <p>
+                           <input class="form-control" type="text" placeholder="Ingresa tu Nombre" required="required"><br><br>
+                       </p>
+                       <p class="campRegis">
+                           <label>
+                               Correo Electronico &nbsp; <a href="#"><i class="glyphicon glyphicon-exclamation-sign pull-right" title="Ingresa tu correo especificando si es Gmail, Hotmail, Yahoo u otros despues del @."></i></a>
+                           </label>
+                       </p>
+                       <p>
+                           <input class="form-control" type="email" placeholder="Ejemplo@correo.com" required="required"><br><br>
+                       </p>
+
+                       <p class="campRegis">
+                            <label>
+                                Selecciona tu Estado &nbsp; <a href="#"><i class="glyphicon glyphicon-exclamation-sign pull-right" title="Por favor Selecciona el Estado donde se Ubica." ></i></a>
+                            </label>
+                        </p>
+                        <script type="text/javascript" src="estadoRegis.js"></script>
+                        <p>
+<form>
+<select name="conti" onChange="ponPaises(this.form)">
+
+<option selected>Elige Estado...</option>
+               <option>Amazonas</option>
+                             <option>Anzoátegui</option>
+                             <option>Apure</option>
+                             <option>Aragua</option>
+                             <option>Barinas</option>
+                             <option>Bolívar</option>
+                             <option>Carabobo</option>
+                             <option>Cojedes</option>
+                             <option>Delta Amacuro</option>
+                             <option>Falcón</option>
+                             <option>Distrito Capital</option>
+                             <option>Guárico</option>
+                             <option>Lara</option>
+                             <option>Mérida</option>
+                             <option>Miranda</option>
+                             <option>Monagas</option>
+                             <option>Nueva Esparta</option>
+                             <option>Portuguesa</option>
+                             <option>Sucre</option>
+                             <option>Táchira</option>
+                             <option>Trujillo</option>
+                             <option>Vargas</option>
+                             <option>Yaracuy</option>
+                             <option>Zulia</option>
+</select>
+
+
+                       </p><br><br>
+
+
+                       <p class="campRegis">
+                           <label>
+                               Direccion de Hogar &nbsp; <a href="#"><i class="glyphicon glyphicon-exclamation-sign pull-right" title="Ingresa direccion de tu Hogar para poder realizar envios de productos a tu vivienda." ></i></a>
+                           </label>
+                       </p>
+                       <p>
+                           <input class="form-control" type="text" placeholder="Direccion de Hogar" required="required"><br><br>
+                       </p>
+                       <P class="campRegis">
+                           <label>
+                               Telefono Personal &nbsp; <a href="#"><i class="glyphicon glyphicon-exclamation-sign pull-right" title="Especifica tu numero celular ingresando el codigo de Telefono, luego un guion ( - ). Seguidamente tu Telefono." ></i></a>
+                           </label>
+                       </P>
+                       <p>
+                           <input class="form-control" type="number" placeholder="Telf. Celular" required="required"><br>
+                       </p>
+                    </div>
+
+                                                <div class="col-lg-2 " ></div>
+                        
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 form-group has-success" align="center">
+                        <p class="campRegis">
+                            <label>
+                                Apellido &nbsp; <a href="#"><i class="glyphicon glyphicon-exclamation-sign pull-right" title="Ingresa ambos Apellidos Porfavor." ></i></a>
+                            </label>
+                        </p>
+                        <p>
+                           <input class="form-control" type="text" placeholder="Ingresa tu Apellido" required="required">
+                           <br><br>
+                       </p>
+                        <p class="campRegis">
+                            <label>
+                                Contraseña &nbsp; <a href="#"><i class="iconReg glyphicon glyphicon-exclamation-sign pull-right" title="Tu Contraseña debe de tener obligatoriamente numeros, y letras con un Total de 8 Caracteres minimo." ></i></a>
+                            </label >
+                        </p>
+                        <p>
+                           <input class="form-control" type="password" placeholder="********" required="required"><br><br>
+                       </p>
+
+                       <p class="campRegis">
+                            <label>
+                                Selecciona tu Ciudad &nbsp; <a href="#"><i class="glyphicon glyphicon-exclamation-sign pull-right" title="Por favor Selecciona la ciudad donde te Ubicas." ></i></a>
+                            </label>
+                        </p>
+                        <script type="text/javascript" src="estadoRegis.js"></script>
+                        <p>
+
+  <select name="pais" onChange="ponProvincias(this.form)">
+  <option></option>
+  </select>
+  </form>
+                       </p><br><br>
+                       
+                        <p class="campRegis">
+                            <label>
+                                Cedula &nbsp; <a href="#"><i class="glyphicon glyphicon-exclamation-sign pull-right" title="Por favor especifica el tipo de Cedula si es Venezoano(V-) o Extranjero(E-). " ></i></a>
+                            </label>
+                        </p>
+                        <p>
+                           <input class="form-control" type="number" placeholder="Ejem.V-XX.XXX.245" required="required"><br><br>
+                       </p>
+                        <p class="campRegis">
+                            <label>
+                                Telefono de Hogar &nbsp; <a href="#"><i class="glyphicon glyphicon-exclamation-sign pull-right" title="Especifica tu telefono de Habitacion ingresando el codigo de Telefono, luego un guion ( - ). Seguidamente tu N° Telefono" ></i></a>
+                            </label>
+                        </p>
+                        <p>
+                           <input class="form-control" type="number" placeholder="Telf. Casa" required="required">
+                       </p>
+                    </div>
+
+                                                <div class="col-lg-2 col-md-1 "></div>
+                  
+                </div>
+              
+            
+                                                <div class=" col-lg-2 " ></div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 form-group has-success" align="center">
+                       <a href="#">
+                         <br><button class="reg1 btn btn-group" type="sumbit" value="Registrar" name="Registrar">
+                           Registrar
+                         </button>
+                        </a><br><br><br><br><br><br><br>
+                    </div>
+              </form>
+                                                <div class="col-lg-2 " ></div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 form-group has-success" align="center">
+                        <a href="index.html">
+                          <button class="reg2 btn btn-group" type="btn" value="Cancelar" name="Cancelar">
+                            Cancelar Registro
+                          </button>
+                        </a><br><br><br><br><br><br><br>
+                    </div>
+                                                <div class="col-lg-2 col-md-1 "></div>
+
+
+
+            <hr><hr>
+            <footer class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                    <p class="nav nav-tabs pull-right">
+
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" align="center">
+                            <a href="http://www.facebook.com/yuralrepuestos" >
+                                <img src="icon/facebook.png" class="icon"> Nuestro Facebook  
+                            </a>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" align="center">
+                            <a href="mailto:yuralrepuestos@gmail.com">
+                                <img src="icon/gmail.png" class="icon"> Yuralrepuestos@gmail.com  
+                            </a>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" align="center">
+                            <a href="http://perfil.mercadolibre.com.ve/REPUESTOSYURAL"  >
+                                <img src="icon/mercadolibre.png" class="icon"> MercadoLibre  
+                            </a>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" align="center">
+                            <a href="http://www.facebook.com/adamswer" >
+                                <img src="icon/flag-3.png" class="icon"> Contacto de Administrador  
+                            </a>
+                        </div>
+                    </p>
+                </div>
+            </footer><br>
+        </section>
+       
+        
+        <script src="../lib/jquery/jquery-3.1.1.min.js"></script>
+        <script src="../lib/bootstrap/js/bootstrap.min.js"></script>    
+    </body>
+</html>

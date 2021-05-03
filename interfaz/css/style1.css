@@ -1,0 +1,509 @@
+/**
+codigo de conficguarion de imagen principal
+**/
+img.imgPrincipal {
+	width:100.7%; 
+	height:185px;
+	margin-left:5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border:1px;
+	border-style: solid;
+	border-color: #3F6EA9;
+}
+
+
+button.ingresa{
+	width: 300px;
+	padding: 10px;
+	margin-top: 5px;
+	margin-left: 4px;
+	color: #000000;
+	background: #85C1E9;
+	position: relative;
+	height: 100px;
+	border-radius: 3px;
+	font-family: "Homer Simpson";
+	border:1px;
+	border-style: solid;
+	border-color: #3F6EA9;
+	font-size: 25pt;
+}
+
+
+button.registrate{
+	width: 300px;
+	padding: 10px;
+	margin-top: 5px;
+	margin-left: 4px;
+	color: #000000;
+	background: #23C16B;
+	position: relative;
+	height: 100px;
+	border-radius: 3px;
+	font-family: "Homer Simpson";
+	border:1px;
+	border-style: solid;
+	border-color: #3F6EA9;
+	font-size: 25pt;
+}
+
+
+
+/** 
+codigo para botones de salir, registro, iniciar seccion ubicada alado de la imagen principal
+**/
+button.b1 {
+	width: 110%;
+	padding: 10px;
+	margin-top: 45px;
+	margin-left: 4px;
+	color: #000000;
+	background: #85C1E9;
+	position: relative;
+	height: 100px;
+	border-radius: 3px;
+	font-family: "Homer Simpson";
+	border:1px;
+	border-style: solid;
+	border-color: #3F6EA9;
+}
+
+button.b1:hover {
+ background: rgba(0,0,0,0);
+ color: green;
+ box-shadow: inset 0 0 0 2px #3a7999;
+ border-radius: 5px;
+ font-family: "Homer Simpson",cursive;
+ border:1px;
+	border-style: solid;
+	border-color: #3F6EA9;
+}
+
+/* estilos de iconos de botones */
+img.botonIcon{
+	width: 20px;
+	height: 20px;
+}
+
+
+
+/* estilos para menu principal o titulos principales del menu  */
+a.menuPrinc{
+	font-size: 13pt;
+	font-family: "Homer Simpson";
+	color:#000000;
+}
+
+/* estilos de iconos del menu no deplegable del menu principal */
+img.menuPrincImg{
+	width:21px ;
+	height:21px ;
+}
+
+
+/* color de flcha para mas opciones de menu principal */
+i.menuOption{
+	color: #C50000;
+
+}
+
+
+/** estilos del menu despegable  */
+li.menu1{
+	margin: 1px;
+
+}
+
+a.menu2{
+	margin-top: 3px;
+	margin-bottom: 1px;
+	border-radius: 30px;
+	
+}
+a.menu2:hover{
+	background: #C7ECFF;
+	border-radius: 30px;
+}
+
+img.menu3{
+	margin-top: 5px;
+	width:30px ;
+	height:30px;
+}
+
+i.menu4{    /* color de texto de menu desplegable  */
+	color:#C50000;
+	font-size: 12pt;
+	font-family: verdana,cursive;
+}
+
+/** estilos de titulos principales de la pagina **/
+p.titulo1{
+	color: #0089C5;
+	font-family: "impact",cursive;
+	font-size: 30pt;
+	margin-top: 10px;
+}
+i.asterisco{
+	size: 50%;
+	margin-top: 5px 5px 5px 5px;
+	color: #0089C5;
+}
+
+p.titulo2{
+	color: #C50000;
+	font-family: "verdana","arial",cursive;
+	font-size: 16pt;
+	position: relative;
+	font-weight:bold;
+}
+
+p.parrafo1{
+	color: #1F777D;
+	font-size: 15px;
+	font-family:  "Homer Simpson","arial" cursive;
+	width: 105%;
+	padding: 5px;
+	background: #EFF6F8;
+}
+
+.parrafo2{
+	color: #266D7C;
+	font-family: arial;
+	font-size:  13pt;
+	margin: 0 auto;
+}
+.parrafo3{
+	color:#156595;
+	font-size: 14pt;
+	font-family: verdana;
+	
+}
+
+
+
+/*
+alineacion verticalmente de un contenedor div para la pagina de contacto y demas!!!
+*/
+.vertical-centered-text {
+  height: 200px;
+  display: table;
+}
+  .vertical-centered-text > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+
+
+
+/**
+estilo de script de imagenes de pagina index cambio de imagenes cada 4 seg
+**/
+ img.imgScript{
+ 	width: 99%;
+ 	height: 420px;
+ 	margin-top: 2px 2px 2px 2px;
+ 	position: relative;
+ }
+img.imgScriptAdmin{
+	width: 75%;
+ 	height: 300px;
+ 	align-items: center;
+
+}
+
+
+img.imgApartUsu{
+	min-width:100px; 
+	max-width:150px; 
+	min-height:100px; 
+	max-height:150px; 
+	border-color:black;
+	border-style: solid;
+	border:1px;
+}
+
+
+
+ img.imgScriptMision{
+ 	width: 99%;
+ 	height: 250px;
+ 	
+ }
+
+img.imgScriptVision{
+	width: 99%;
+	height: 250px;
+	border-top: 3px;
+	border-color: black;
+}
+
+
+hr.hr1{
+	background:rgb(198, 224, 225);
+	width: 85%;
+	height: 2px;
+	border-radius: 60px;
+}
+/**
+pagina principal parte de catalogo
+**/
+ p.prinCatalog{
+ 	font-size: 22px;
+ 	font-family: verdana;
+ 	color: #234661;
+ 	background: rgb(151, 208, 247);
+ 	width: 70%;
+ 	height: 45px;
+ 	border-radius: 7.5px;
+ 	padding: 6px 
+ }
+
+/** 
+estilos de campo de formulario de registro
+**/
+p.campRegis{
+	color: #C50000;
+	font-size: 12pt;
+
+}
+
+ /**
+estilo de boton de formulario de registro
+ **/
+ button.reg1 {
+	color: white;
+	background: #296EC5  ;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: inset 0 0 0 2px #fff;
+	font-size: 13pt;
+}
+
+button.reg1:hover {
+ background: white;
+ color: #0087FF;
+ box-shadow: inset 0 0 0 2px #0087FF  ;
+ border-radius: 5px;
+ font-family: "Homer Simpson";
+ font-size: 13pt;
+}
+
+button.reg2 {
+	color: white;
+	background: #FF3A3A;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: inset 0 0 0 2px #fff;
+	font-size: 13pt;
+}
+
+button.reg2:hover {
+ background: white;
+ color: #FF0000;
+ box-shadow: inset 0 0 0 2px #FF0000;
+ border-radius: 5px;
+ font-family: "Homer Simpson";
+ font-size: 13pt;
+}
+
+/**
+estilo de texto de parrafo pantalla de login de usuraio
+**/
+
+p.parrafoLogin{
+	font-size: 14pt;
+	color: #1D7837;
+	font-family: arial;
+
+}
+
+
+
+/** 
+codigo para botones de inicio de session 
+ **/
+
+  button.log1 {
+	color: white;
+	background: #3D8D4C  ;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: inset 0 0 0 2px #fff;
+	font-size: 13pt;
+}
+
+button.log1:hover {
+ background: white;
+ color: #3D8D4C;
+ box-shadow: inset 0 0 0 2px #3D8D4C  ;
+ border-radius: 5px;
+ font-family: "Homer Simpson";
+ font-size: 13pt;
+}
+
+button.log2 {
+	color: white;
+	background: #007AA1;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: inset 0 0 0 2px #fff;
+	font-size: 13pt;
+}
+
+button.log2:hover {
+ background: white;
+ color: #007AA1;
+ box-shadow: inset 0 0 0 2px #007AA1;
+ border-radius: 5px;
+ font-family: "Homer Simpson";
+ font-size: 13pt;
+}
+/*
+bordes y estilos de los div de pantalla de ingreso de seccion
+*/
+div.bordes{
+  border-style: solid ;
+  border-color:#C70039 ; 
+  border-radius: 7px;
+  border-top-width: 1px;
+  border-right-width: 1px; 
+  border-bottom-width:  1px; 
+  border-left-width: 1px;
+  padding-top: 10px;
+  background: #D3E9FF;
+  }
+
+
+/* estilos de bordes para pagina de recuperacion de contraseña */
+div.bordesRecuperacion{
+	border-style: solid;
+	border-color: #FFAA00;
+	padding: 15px;
+	border-radius: 15px;
+
+}
+
+/* estilos para la imagen e iconos de la pagina de recuperacion de contraseña */
+
+img.iconRecuperar{
+	width: 30px;
+	height: 30px;
+	border-image-repeat: 20px;
+
+}
+
+/* estilos para titulo secundario de la agina de recuperacion de contraseña */
+
+label.tituloRecuperacion{
+	color: #C50000;
+	font-size: 13pt;
+	font-family: "homer Simpson";
+}
+
+
+
+/* estilos de parrafo de pagina de recuperacion de contraseña */
+
+p.parrafoRecuperacion{
+	color: #3D8D4C;
+	font-family: arial;
+	font-size: 11pt;
+}
+
+
+
+
+/* estilos de botones de pagina de recuperacion de contraseña */
+button.recupeContra1{
+	color: white;
+	background: #E73C3C;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: inset 0 0 0 2px #fff;
+	font-size: 13pt;
+}
+
+button.recupeContra1:hover {
+ background: white;
+ color: #E73C3C;
+ box-shadow: inset 0 0 0 2px #E73C3C;
+ border-radius: 5px;
+ font-family: "Homer Simpson";
+ font-size: 13pt;
+}
+
+button.recupeContra2{
+	color: white;
+	background: #3984C2;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: inset 0 0 0 2px #fff;
+	font-size: 13pt;
+}
+
+button.recupeContra2:hover {
+ background: white;
+ color: #3984C2;
+ box-shadow: inset 0 0 0 2px #3984C2;
+ border-radius: 5px;
+ font-family: "Homer Simpson";
+ font-size: 13pt;
+}
+
+
+/* 
+Estilos de parrafo para la pagina de Ubicacion de Yural
+*/
+p.parrafUbicacion{
+	color: #415246;
+	font-size: 12pt;
+	font-family: arial,"comic sans ms";
+}
+
+
+input.PrecioCosto{		/*estylo de caja de texto en precio costo*/
+	color: #C70039;
+	font-weight: bolder;
+	font-size: 13pt;
+	font-family: arial;
+	text-align: center;
+
+}
+input.inputCodProd{			/*estilo de input de codigo de producto*/
+	font-family: verdana;
+	font-weight: bolder;
+	font-size: 14;
+	color: #004887;
+	text-align: center;
+}
+
+
+input.inputCodVenta{ 		/*estylo de codigo de producto venta en input correspondiente*/
+	font-weight: bolder;
+	font-size: 13pt;
+	font-family: verdana;
+	color: #0088C8;
+	text-align: center;
+}
+
+
+input.inputPrecio{ /*estylo de input en pagina de registrar mercancia estylos en campos de precio base, iva, pvp*/
+	text-align: center;
+	font-size: 13pt;
+	color: #00830C;
+	font-weight: bolder;
+	font-family: verdana;
+}
+
+
+/** 
+configuracion de iconos de pie de pagina
+**/
+ img.icon{
+ 	width:17px;
+ 	height:17px;
+ }
