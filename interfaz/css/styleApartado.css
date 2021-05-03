@@ -1,0 +1,130 @@
+
+table.table{
+
+}
+tr.trTitulo{		/*estilo fila de titulo en pagina de productos apartados */
+	background: #0F6095;
+}
+
+tr.trTitulo:hover{
+	background: #0B7C9D;
+}
+
+td.titulo{		/*estilo de letra de titulo en pagina de apartados*/
+	border-right: 1px;
+	border-color: white;
+	border-style: solid;
+	border-radius: 10px;
+	font-family: "comic sans ms";
+	font-size: 130%;
+	font-weight: bolder;
+}
+
+
+
+tr.parrafo{		/*estilo de filas de parrafos y descripcion en pagina de productos apartados */
+	background: #F9F9F9;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+tr.parrafo:hover{
+	background: #E9F0FF;
+}
+
+td.parrafo{		/*estilo de letra de parrafos y descripcion en pagina de apartados*/
+	border-right: 1px;
+	border-color: #E0E0E0;
+	border-style: solid;
+	font-family: "arial";
+	font-size: 100%;
+	color: #06840A;
+	font-family: verdana;
+	font-size:120%;
+	min-height: 150px;
+	max-height: 150px;
+	font-weight: bolder;
+
+}
+img.imgDescrip{		/*estilo de imagen de cada prodcucto en pagina de apartado de prodcuto*/
+	min-width: 50px;
+	max-width: 150px;
+	min-height: 50px;
+	max-height: 150px;
+	border:2px;
+	border-color: #003D0E;
+	border-style: solid;
+	display:block;
+	margin:0 auto 0 auto;
+	border-radius: 5px;
+}
+
+button.BotDescripCat{		/* botton de catalogo general "Descripción" */
+	color: white;
+	background: #1B78A1;
+	position: relative;
+	border-radius: 15px;
+	box-shadow: inset 0 0 0 2px #fff;
+	font-size: 13.5pt;
+	padding-bottom: 5px;
+
+
+}
+
+button.BotDescripCat:hover {
+ background: white;
+ color: #1B78A1;
+ box-shadow: inset 0 0 0 2px #1B78A1;
+ border-radius: 15px;
+ font-family: "georgia";
+ font-size: 13.5pt;
+ font-style: italic;
+ padding-bottom: 5px;
+}
+
+
+button.cancelarRegis{
+	color: white;
+	background: #ED0016;
+	position: relative;
+	border-radius: 15px;
+	box-shadow: inset 0 0 0 1.5px #fff;
+	font-size: 13pt;
+	margin-right: 20px;
+	height: 50px;
+}
+
+button.cancelarRegis:hover {
+ background: white;
+ color: #ED0016;
+ box-shadow: inset 0 0 0 2.5px #ED0016;
+ border-radius: 15px;
+ font-family: "georgia";
+ font-size: 13pt;
+ font-style: italic;
+
+}
+button.geneNotaEntrega{
+	color: white;
+	background: #198000;
+	position: relative;
+	border-radius: 15px;
+	box-shadow: inset 0 0 0 1.5px #fff;
+	font-size: 13pt;
+	margin-left: 20px;
+	height: 50px;
+}
+
+button.geneNotaEntrega:hover {
+ background: white;
+ color: #27C800;
+ box-shadow: inset 0 0 0 2.5px #27C800;
+ border-radius: 15px;
+ font-family: "georgia";
+ font-size: 13pt;
+ font-style: italic;
+
+}
+

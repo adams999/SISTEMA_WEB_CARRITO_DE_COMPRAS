@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+	<title>Repuestos Yural</title>
+    <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+    <body>
+        <section class="container">
+            <header class="row">
+                <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 container" align="justify"> 
+                    <img src="img/logo3.jpg"  width="100.7%" height="167px" style="margin-left:3px;margin-top:12px">  
+                 </div><br>
+
+                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 btn-vertical row">
+                    <table class="table table-striped table-hover" width="100%" >
+                        <tbody background="green">
+                            
+                            <tr class="table" align="center">
+                                <td>
+                                    <a href="http://www.google.com.ve" title="Ingresar"><i class="glyphicon glyphicon-user"> Ingresar</i></a>
+                                </td>
+                            </tr>
+                
+                            <tr class="table" align="center">
+                                <td>
+                                    <a href="#" title="Crear Perfil"><i class="glyphicon glyphicon-save"> Registrarse</i></a>
+                                </td>
+                            </tr>
+
+                            <tr class="table" align="center">
+                                <td>
+                                    <a href="#" title="Cerrar Seccion"><i class="glyphicon glyphicon-log-out"><br/> Salir</i></a>
+                                </td> 
+                            </tr>
+                        </tbody>
+                    </table>      
+                 </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <ul class="nav nav-tabs" >
+                            <li class="active">
+                                <a href="#">
+                                    <i class="glyphicon glyphicon-home"></i> Inicio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                   <i class="glyphicon glyphicon-shopping-cart"></i> Catalogo de Repuestos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="drowpdown-toggle" data-toggle="dropdown">
+                                   <i class="glyphicon glyphicon-info-sign"></i> Informacion de Yural C.A <i class="caret"></i>
+                                    
+                                </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">
+                                               <i class="glyphicon glyphicon-map-marker"></i> Ubicacion
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="glyphicon glyphicon-earphone"></i> Contacto</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="glyphicon glyphicon-exclamation-sign"></i> Misión</a>
+                                        </li>
+                                    </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="drowpdown-toggle" data-toggle="dropdown">
+                                   <i class="glyphicon glyphicon-user"></i> Mi Cuenta <i class="caret"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">
+                                            <i class="glyphicon glyphicon-user"></i> Productos Apartados
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="glyphicon glyphicon-cog"></i> Configuracion de Cuenta
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="glyphicon glyphicon-log-out"></i> Salir
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+            </header>
+
+            <article class="row">
+            <div class="col-lg-12">
+                <p align="center"><font style="color: #259" face="Helvetica" size="7"><i class="glyphicon glyphicon-asterisk" style="margin-top: 10px"></i>
+                    Todo lo que Buscas para tu Moto!!!</font></p>
+            </div>
+
+
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <p align="center"><font style="color: #934" face="arial" size="5">Yural C.A. Comprometidos con ud!</font></p>
+                    <p align="center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" align="center">
+                    
+                        <script>
+                            /**
+                            * Array con las imagenes que se iran mostrando en la web
+                            */
+                            var imagenes=new Array(
+                                'imgScript/1.jpg',
+                                'imgScript/2.jpg',
+                                'imgScript/3.jpg',
+                                'imgScript/4.jpg'
+                            );
+                         
+                            /**
+                            * Funcion para cambiar la imagen
+                            */
+                            function rotarImagenes()
+                            {
+                                // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
+                                var index=Math.floor((Math.random()*imagenes.length));
+                         
+                                // cambiamos la imagen
+                                document.getElementById("imagen").src=imagenes[index];
+                            }
+                         
+                            /**
+                            * Función que se ejecuta una vez cargada la página
+                            */
+                            onload=function()
+                            {
+                                // Cargamos una imagen aleatoria
+                                rotarImagenes();
+                         
+                                // Indicamos que cada 4 segundos cambie la imagen
+                                setInterval(rotarImagenes,4000);
+                            }
+                        </script>
+                            <img src="" id="imagen"  style="margin-top:2px;margin-left:0px;" width="100%" height="340px" class="img-rounded">
+                            <br><br>        
+                </div>
+
+                    <div align="center" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h3><i class="glyphicon glyphicon-shopping-cart"></i> Nuestro Catalogo de Productos</h3>
+                        <table class="table table-stripe table-hover">
+                            <thead>
+                                <tr>
+                                    <th width="50">ID</th>
+                                    <th>Producto</th>
+                                    <th>Cant.Disp</th>
+                                    <th colspan="2">&nbsp;</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Cauchos</td>
+                                    <td>3</td>
+                                    <td width="50">
+                                        <a href="#">
+                                            <i class="glyphicon glyphicon-eye-open">
+                                            </i>
+                                        </a> 
+                                    </td>
+                                    <td width="50">
+                                        <a href="#" title="Apartar">
+                                            <i class="glyphicon glyphicon-shopping-cart">
+                                            </i>
+                                        </a> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Baterias</td>
+                                    <td>15</td>
+                                    <td width="50">
+                                        <a href="#">
+                                            <i class="glyphicon glyphicon-eye-open">
+                                            </i>
+                                        </a> 
+                                    </td>
+                                    <td>
+                                        <a href="#" title="Apartar">
+                                            <i class="glyphicon glyphicon-shopping-cart" >
+                                            </i>
+                                        </a> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Cascos</td>
+                                    <td>29</td>
+                                    <td width="50">
+                                        <a href="#">
+                                            <i class="glyphicon glyphicon-eye-open">
+                                            </i>
+                                        </a> 
+                                    </td>
+                                    <td width="50">
+                                        <a href="#" title="Apartar">
+                                            <i class="glyphicon glyphicon-shopping-cart">
+                                            </i>
+                                        </a> 
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+            </article>
+            <hr><hr>
+            <footer class="row">
+                <div class="col-lg-12">
+                    <p>
+                        <a href="http://www.facebook.com/yuralrepuestos/" class="pull-left">
+                        Nuestro Facebook
+                        </a>
+                        <a href="http://www.facebook.com/adamswer" class="pull-right">
+                        Administrador
+                        </a>
+                    </p>
+                </div>
+            </footer>
+        </section>
+       
+        
+        <script src="../lib/jquery/jquery-3.1.1.min.js"></script>
+        <script src="../lib/bootstrap/js/bootstrap.min.js"></script>    
+    </body>
+</html>

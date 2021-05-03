@@ -1,0 +1,142 @@
+/* titulo de catalogo de repuestos */
+
+p.titulo1Catalogo{
+	color: #BE1515;
+	font-family: "impact";
+	font-size: 38pt;
+	position: relative;
+
+
+}
+
+/* ESTILOS DE LAS CAJAS DE PRESENTACION DE LOS REPUESTOS EN EL CATALOGO GENERAL */
+
+
+div.div1{				/* bordes de catalogo general*/
+border-style: solid;
+border-color: #84ACCC;
+border-radius: 8px; 
+padding: 13px;
+}
+
+img.imgCatalog{ 	  /* stylos de imagen de cada articulo en el catalogo general*/
+	max-width: 200px; 
+	min-width: 160px; 
+	min-height: 200px; 
+	max-height: 200px;
+	border:3px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #00676F;
+
+}
+
+p.nomProd{ 			/* nombre de cada articulo en el catalogo general */
+	color: #207FCA;
+	font-size: 19pt;
+	font-weight: bold;
+	margin-top: 3px;
+	height: 70px;
+	font-size-adjust: justify
+	
+}
+
+.vertical-centered-text {	/* centrar titulos en el catalogo general */
+  height: 200px;
+  display: table;
+}
+  .vertical-centered-text > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+
+p.PrecProd{ 		/* precio de cada articulo catalogo general */
+	color: #C70039;
+	font-family: arial;
+	font-style: solid;
+	font-size: 13pt;
+	position: relative;
+	font-weight: bold;
+}
+label.disponibles{
+	color: #FF5733;
+	font-family: verdana;
+	font-size: 10pt
+}
+
+
+
+img.iconCat{		/* style de icono del boton de apartar ene el catalogo general */
+	width: 20px;
+	height: 20px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+
+button.BotDescrip{		/* botton de catalogo general "Descripción" */
+	color: white;
+	background: #1B78A1;
+	position: relative;
+	border-radius: 15px;
+	box-shadow: inset 0 0 0 2px #fff;
+	font-size: 13.5pt;
+	padding-bottom: 5px;
+
+
+}
+
+button.BotDescrip:hover {
+ background: white;
+ color: #1B78A1;
+ box-shadow: inset 0 0 0 2px #1B78A1;
+ border-radius: 15px;
+ font-family: "georgia";
+ font-size: 13.5pt;
+ font-style: italic;
+ padding-bottom: 5px;
+}
+
+
+
+hr.hr2{				/* linea que separa cada fila de productos en catalogo general */
+	border-style: solid;
+	background: #BE1515;
+	width: 75%;
+	height: 2px;
+	border-radius: 80px;
+}
+
+td.td{			/* estilo de paginacion de catalogo general */
+	background: #FAFAFA;
+	width: 20px;
+	height: 20px;
+	border: 1px;
+	text-align: center
+}
+
+a.pag{			/* estylo de texto en paginacion de catalogo general */
+	color: #BE1515;
+	font-weight: bold;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
